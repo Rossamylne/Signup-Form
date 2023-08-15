@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.background {
+    background: url(./img/croissants.png) center no-repeat;
+    background-size: cover;
+    flex: 2;
+    text-align: center;
+}
+.background > p {
+    font-size: 3em;
+    font-weight: 600;
+    padding: 20px 0;
+    color: white;
+    backdrop-filter: opacity(0.4) brightness(0%);
+}
+.information {
+    background-color: #DDDDDD;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.information > div {
+    flex: 1;
+    padding: 5px 25px;
+}
+.information > div > p {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+.information >.formcontainer {
+    background-color: #f5f4f4;
+    flex: 2;
+    font: 500;
+    display: flex;
+    flex-direction: column;
+}
+.formflex {
+    width: 80%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.formflex > div {
+    flex: 1;
+    font-size: 0.7rem;
+    font-weight: 800;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    letter-spacing: 1px;
+}
+input {
+    padding: 10px 2px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    font-size: 1.5em;
+    transition: 0.2s ease-out;
+}
+input:focus {
+    border: 1px solid #4099ff;
+    box-shadow: 1px 1px 7px #242424;
+    outline: none;
+}
+button {
+    background: #ff5c5c;
+    border: none;
+    margin: 2vh 0 0 1vw;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    width: 30%;
+    padding: 10px 0;
+    transition: 0.2s ease-out;
+}
+button:hover {
+    cursor: pointer;
+    background: #fd4b4b;
+}
+.information > div > .account {
+    font-size: 1em;
+    font-weight: 300;
+    margin-left: 1vw;
+}
