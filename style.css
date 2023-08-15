@@ -71,6 +71,9 @@ input:focus {
     box-shadow: 1px 1px 7px #242424;
     outline: none;
 }
+input:invalid {
+    border: 1px solid red;
+}
 button {
     background: #ff5c5c;
     border: none;
